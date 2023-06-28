@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(196, 217, 225);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container {
+    width: 430px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 40px;
+    position: relative;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.valign_center {
+    align-items: center;
+}
+
+.align_center {
+    justify-content: center;
+}
+
+.align_space_between {
+    justify-content: space-between;
+}
+
+/* header part css */
+.fullheadingpart {
+    padding-top: 30px;
+}
+
+.lefticon {
+    width: 15%;
+    padding: 20px;
+}
+
+.heading {
+    width: 70%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.deleteicon {
+    width: 15%;
+    padding: 30px;
+}
+
+/* Middle part css */
+.fullmiddlepart {
+    background-color: rgb(238, 238, 238);
+    padding: 25px;
+    height: 673px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+/* item css start */
+.item {
+    border-radius: 20px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.imgdiv {
+    display: flex;
+    width: 35%;
+    text-align: center;
+    justify-content: center;
+}
+
+.content {
+    width: 55%;
+}
+
+.brand {
+    line-height: 25px;
+    color: rgb(42, 17, 116);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.price {
+    line-height: 25px;
+    color: rgb(42, 17, 116);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.quantity {
+    width: 10%;
+    text-align: center;
+    line-height: 25px;
+}
+
+/* item css end */
+
+/* Subtotal part */
+.subtotalpart {
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.subtotal {
+    width: 50%;
+}
+
+.taxes {
+    width: 50%;
+}
+
+/* Footer part */
+.footer {
+    padding: 25px 0px 35px 0px;
+    font-family: 'Jost', sans-serif;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.total {
+    width: 50%;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+.checkoutbtn {
+    width: 50%;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.checkbutton {
+    background: #2222cb;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    padding: 8px 18px;
+    border: 0;
+}
+
+.logout-icon {
+    filter: invert(100%);
+}
+
+.footer::after{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    left: 162px;
+    width: 24%;
+    border-top: 2px solid #9E9E9E;
+}
